@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  .cabecalho {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    gap: 10px;
+    font-family: Montserrat;
+    color: #004a8d;
+  }
+  
+  .evt:hover{
+    color: rgb(255, 136, 0);
+  }
+
+  .pa:hover{
+    color: rgb(255, 136, 0);
+  }
+
+  .pne:hover{
+    color: rgb(255, 136, 0);
+  }
+
+  .pm:hover{
+    color: rgb(255, 136, 0);
+  }
+
+  .evt_an:hover{
+    color: rgb(255, 136, 0);
+  }
+
+ 
+
+  img {
+    width: 8rem;
+  }
+
+  .header_img {
+    display: flex;
+    height: 80px;
+    margin: 10px;
+  }
+
+  .header_blue {
+    display: flex;
+    background-color: #004a8d;
+    height: 50px;
+    width: 120rem;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: Montserrat;
+  }
+}
+
+main{
+
+    .img{
+        display: flex;
+        background-image: url("https://eventos.sp.senac.br/wp-content/uploads/2024/08/cover-evento-casa-aberta-senac-2024.webp");
+        width: 120rem;
+        height: 45rem;
+        text-align: center;
+        color: white;
+
+        .conteudo{
+            margin-top: 15rem;
+            margin-left: 33rem;
+            width: 50rem;
+            height: 10rem;
+            background-color: rgba(0, 0, 0, 0.726);
+            text-align: start;
+            padding: 20px;
+
+            .atividade{
+                font-family: Montserrat;
+                font-size: 1rem;
+
+
+            }
+
+            .outubro{
+                font-family: Montserrat;
+                font-size: 1.5rem;
+                margin-top: 1rem;
+
+
+            }
+
+
+            .casa{
+            font-family: Montserrat;
+            font-size: 2rem;
+
+
+
+
+            }
+        }
+    }
+
+}
+
+
+footer {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: space-evenly;
+
+  .rodape{
+    background-color: #004a8d;
+
+
+    .logo{
+      margin: 5rem 5rem;
+      font-family: Montserrat;
+
+      img{
+        width: 10rem;
+      }
+    }
+    .pai_conteudo{
+      display: flex;
+    }
+
+    .footer_conteudo{
+      margin: 5rem 5rem;
+      font-family: Montserrat;
+      
+    }
+    .footer_conteudo1{
+      margin: 5rem 5rem;
+      font-family: Montserrat;
+      
+    }
+    .footer_conteudo2{
+      margin: 5rem 5rem;
+      font-family: Montserrat;
+      
+    }
+    .footer_conteudo3{
+      margin: 5rem 5rem;
+      font-family: Montserrat;
+      
+    }
+    .siga{
+      margin: 5rem 5rem;
+      font-family: Montserrat;
+          
+      .icons{
+        display: flex;
+        gap: 1rem;
+      }
+    }
+
+
+  }
+  .rodape1{
+    display: flex;
+    height: 10rem;
+    background-color: #00427E;
+    width: 120rem;
+    justify-content: center;
+    gap: 15rem;
+    font-family: Montserrat;
+    align-items: center;
+
+}
+    
+  
+  /* background-color: #004a8d; */
+}
+
+
+
+
+
+
+
+
+
